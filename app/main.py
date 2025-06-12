@@ -2,9 +2,12 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import numpy as np
 import joblib
+import os
+
+base_dir = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(base_dir, "iris_model.pkl")
 
 # Load Model
-model_path = r"../app/iris_model.pkl"
 model = joblib.load(model_path)
 
 app = FastAPI()
