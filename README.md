@@ -130,5 +130,5 @@ Stay tuned — more ML/DL projects with full MLOps pipelines coming soon!
   -  Render
   -  GitHub Actions
 
-📬 Contact
+## 📬 Contact
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/awwab-mahimi-0b1905352/) or share feedback and suggestions via GitHub Issues.
